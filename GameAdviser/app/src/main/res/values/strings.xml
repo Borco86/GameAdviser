@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GameAdviser</string>
+    <string name="find_game">Find Game</string>
+    <string-array name="game_genres_array">
+        <item>FPS</item>
+        <item>cRPG</item>
+        <item>Adventure</item>
+        <item>RTS</item>
+    </string-array>
 </resources>

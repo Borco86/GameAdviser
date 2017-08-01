@@ -7,28 +7,29 @@
     tools:context="borco86.com.github.gameadviser.FindGameActivity">
 
     <TextView
-        android:id="@+id/text_view"
+        android:id="@+id/game_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:layout_marginTop="11dp"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/find_game_button"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/find_game_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find Game"
+        android:text="@string/find_game"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/game_genre_spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/find_game_button"
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>
